@@ -1,21 +1,15 @@
 # Microsoft Developer Studio Project File - Name="CSpecSampleXml" - Package Owner=<4>
 # Microsoft Developer Studio Generated Build File, Format Version 6.00
-# ** 編集しないでください **
 
 # TARGTYPE "Win32 (x86) Console Application" 0x0103
 
 CFG=CSpecSampleXml - Win32 Debug
-!MESSAGE これは有効なﾒｲｸﾌｧｲﾙではありません。 このﾌﾟﾛｼﾞｪｸﾄをﾋﾞﾙﾄﾞするためには NMAKE を使用してください。
-!MESSAGE [ﾒｲｸﾌｧｲﾙのｴｸｽﾎﾟｰﾄ] ｺﾏﾝﾄﾞを使用して実行してください
 !MESSAGE 
 !MESSAGE NMAKE /f "CSpecSampleXml.mak".
 !MESSAGE 
-!MESSAGE NMAKE の実行時に構成を指定できます
-!MESSAGE ｺﾏﾝﾄﾞ ﾗｲﾝ上でﾏｸﾛの設定を定義します。例:
 !MESSAGE 
 !MESSAGE NMAKE /f "CSpecSampleXml.mak" CFG="CSpecSampleXml - Win32 Debug"
 !MESSAGE 
-!MESSAGE 選択可能なﾋﾞﾙﾄﾞ ﾓｰﾄﾞ:
 !MESSAGE 
 !MESSAGE "CSpecSampleXml - Win32 Release" ("Win32 (x86) Console Application" 用)
 !MESSAGE "CSpecSampleXml - Win32 Debug" ("Win32 (x86) Console Application" 用)
