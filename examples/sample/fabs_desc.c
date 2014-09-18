@@ -11,6 +11,7 @@ DESCRIBE(fabs, "double fabs( double arg )")
 
 	IT( "returns the opposite number if the number is negative"  )
 		SHOULD_EQUAL( fabs(-1.0), 1.0)
+        SHOULD_EQUAL( fabs(-0.0), 0.0)
 		SHOULD_EQUAL( fabs(-6.7), 6.7)
 	END_IT
 
