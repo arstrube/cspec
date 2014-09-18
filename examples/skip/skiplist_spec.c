@@ -83,6 +83,12 @@ DESCRIBE(SkipListContains, "contains")
 		SHOULD_EQUAL( contains(ss, -45), 0)
 	END_IT
 
+	IT( "returns 1 when the item is found in 5000 items" )
+	    int i;
+	    for(i=-2500; i<=2500; i++) insert(ss, i);
+		SHOULD_EQUAL( contains(ss, 1426), 1)
+	END_IT
+
 	delete_skipset(ss);
 
 END_DESCRIBE
