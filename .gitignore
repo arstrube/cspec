@@ -43,3 +43,12 @@ BuildLog.*
 *.res
 *.dep
 test-driver
+*.tlog
+*.log
+*.lastbuildstate
+*.rc
+results.xml
+Upgradereport.*
+UpgradeLog.XML
+*.gif
+*.filters
