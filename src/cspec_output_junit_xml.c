@@ -363,6 +363,7 @@ void evalFunJUnitXml(const char *filename, int line_number, const char *assertio
 
 void pendingFunJUnitXml(const char* reason)
 {
+    (void)reason;
 	if (outputXmlFile == NULL)
 	{
 		return;
